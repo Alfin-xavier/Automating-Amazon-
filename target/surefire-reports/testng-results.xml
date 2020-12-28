@@ -26,12 +26,12 @@
       <![CDATA[Delete product from the cart]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-12-28T16:48:33 IST" name="Suite" finished-at="2020-12-28T16:49:39 IST" duration-ms="66017">
+  <suite started-at="2020-12-28T17:26:14 IST" name="Suite" finished-at="2020-12-28T17:26:37 IST" duration-ms="22940">
     <groups>
     </groups>
-    <test started-at="2020-12-28T16:48:33 IST" name="Test" finished-at="2020-12-28T16:49:39 IST" duration-ms="66017">
+    <test started-at="2020-12-28T17:26:14 IST" name="Test" finished-at="2020-12-28T17:26:37 IST" duration-ms="22940">
       <class name="com.atmecs.amazonshoppingsite.testscript.SearchProductTest">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.amazonshoppingsite.testscript.SearchProductTest@2d9d4f9d]" started-at="2020-12-28T16:48:34 IST" name="beforeMethod" finished-at="2020-12-28T16:49:18 IST" duration-ms="44398" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.amazonshoppingsite.testscript.SearchProductTest@2d9d4f9d]" started-at="2020-12-28T17:26:14 IST" name="beforeMethod" finished-at="2020-12-28T17:26:24 IST" duration-ms="9643" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,7 +42,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="searchProduct()[pri:0, instance:com.atmecs.amazonshoppingsite.testscript.SearchProductTest@2d9d4f9d]" started-at="2020-12-28T16:49:18 IST" name="searchProduct" finished-at="2020-12-28T16:49:38 IST" duration-ms="20141" status="PASS">
+        <test-method signature="searchProduct()[pri:0, instance:com.atmecs.amazonshoppingsite.testscript.SearchProductTest@2d9d4f9d]" started-at="2020-12-28T17:26:24 IST" name="searchProduct" finished-at="2020-12-28T17:26:37 IST" duration-ms="12976" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Entering product name on searchbox]]>
@@ -70,7 +70,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- searchProduct -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.amazonshoppingsite.testscript.SearchProductTest@2d9d4f9d]" started-at="2020-12-28T16:49:38 IST" name="afterMethod" finished-at="2020-12-28T16:49:39 IST" duration-ms="1437" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.amazonshoppingsite.testscript.SearchProductTest@2d9d4f9d]" started-at="2020-12-28T17:26:37 IST" name="afterMethod" finished-at="2020-12-28T17:26:37 IST" duration-ms="285" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->

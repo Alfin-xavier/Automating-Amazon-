@@ -8,6 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 
 public class SearchProductPage 
 {
@@ -71,6 +72,6 @@ public class SearchProductPage
 	public void deleteProd(String xpath)
 	{
 		driver.findElement(By.xpath(xpath)).click();
-		driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(15000, TimeUnit.SECONDS);
 	}
 }
