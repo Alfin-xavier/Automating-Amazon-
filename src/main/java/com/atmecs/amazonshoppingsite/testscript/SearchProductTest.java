@@ -55,5 +55,9 @@ public class SearchProductTest extends BasePage
 		
 		searchProduct.viewCart(searchProd.getProperty("shoppingCart"));
 		
+		Reporter.log("Delete product from the cart");
+		
+		searchProduct.deleteProd(searchProd.getProperty("delProduct"));
+		
 	}
 }

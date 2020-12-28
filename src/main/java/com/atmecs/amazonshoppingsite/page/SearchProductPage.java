@@ -7,6 +7,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class SearchProductPage 
 {
@@ -65,5 +66,11 @@ public class SearchProductPage
 	{
 		driver.findElement(By.xpath(xpath)).click();
 		driver.manage().timeouts().implicitlyWait(7000, TimeUnit.SECONDS);
+	}
+	
+	public void deleteProd(String xpath)
+	{
+		driver.findElement(By.xpath(xpath)).click();
+		driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
 	}
 }
