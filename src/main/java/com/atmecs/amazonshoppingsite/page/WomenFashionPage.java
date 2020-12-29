@@ -46,4 +46,16 @@ public class WomenFashionPage
 		driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
 	}
 	
+	public void rating(String xpath)
+	{
+		driver.findElement(By.xpath(xpath)).click();
+		driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
+	}
+	
+	public void selectBag(String xpath)
+	{
+		driver.findElement(By.xpath(xpath)).click();
+		driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
+	}
+	
 }

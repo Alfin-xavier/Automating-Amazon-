@@ -29,21 +29,23 @@ public class WomenFashionTest extends BasePage
 		
 		Reporter.log("Clicking women fashion from category");
 		
-		fashionPage.scrollPage();
-		
 		fashionPage.clickWomenFashion(propLocator.getProperty("wonen_fashion"));
 		
 		Reporter.log("Clicking bags product");
-		
-		fashionPage.scrollPage();
 		
 		fashionPage.clickBags(propLocator.getProperty("product"));
 		
 		Reporter.log("Clicking bags");
 		
-		fashionPage.scrollPage();
-		
 		fashionPage.clickSlingBag(propLocator.getProperty("sling_bag"));
+		
+		Reporter.log("Filter by rating");
+		
+		fashionPage.rating(propLocator.getProperty("rating"));
+		
+		Reporter.log("Selecting bag");
+		
+		fashionPage.selectBag(propLocator.getProperty("bag"));
 		
 	}
 }
