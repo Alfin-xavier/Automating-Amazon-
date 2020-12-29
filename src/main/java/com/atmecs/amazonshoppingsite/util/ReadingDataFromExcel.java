@@ -56,12 +56,4 @@ public class ReadingDataFromExcel
 		}
 		return data;
     }
-	
-	@DataProvider(name = "testData")
-	public Object[][] womenFashion(Method method)
-	{
-		Object[][] data = ReadingDataFromExcel.readExcelData(method.getName());
-		
-		return data;
-	}
 }

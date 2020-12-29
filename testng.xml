@@ -10,7 +10,7 @@
   	<parameter name="browser" value="chrome"></parameter>
 	    <classes>
 	      <class name="com.atmecs.amazonshoppingsite.testscript.SearchProductTest"/>
-	      <!-- <class name="com.atmecs.amazonshoppingsite.testscript.WomenFashionTest"/> -->
+	      <class name="com.atmecs.amazonshoppingsite.testscript.WomenFashionTest"/>
 	    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

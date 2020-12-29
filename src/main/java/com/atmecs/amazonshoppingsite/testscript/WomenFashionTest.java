@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 import com.atmecs.amazonshoppingsite.constant.ConstantFilePath;
 import com.atmecs.amazonshoppingsite.page.BasePage;
 import com.atmecs.amazonshoppingsite.page.WomenFashionPage;
+import com.atmecs.amazonshoppingsite.util.PaymentDataProvider;
 import com.atmecs.amazonshoppingsite.util.PropertyReader;
 
 public class WomenFashionTest extends BasePage
@@ -18,8 +19,8 @@ public class WomenFashionTest extends BasePage
 	
 	Properties payData;
 	
-	@Test
-	public void womenFashion()
+	@Test(dataProvider = "testData", dataProviderClass = PaymentDataProvider.class)
+	public void womenFashion(String username, String password)
 	{
 		propLocator = PropertyReader.readProperty(ConstantFilePath.WOMEN_FASHION_LOCATOR);
 		
@@ -59,9 +60,13 @@ public class WomenFashionTest extends BasePage
 		
 		fashionPage.clickBuyNow(propLocator.getProperty("buy_now"));
 		
-		Reporter.log("Providing mail id");
+		Reporter.log("Providing mail_id");
 		
-		fashionPage.enterEmail(propLocator.getProperty("buy_now"), payData.getProperty("email"));
+		fashionPage.enterEmail(propLocator.getProperty("buy_now"), username);
+		
+		Reporter.log("Providing Password");
+
+		fashionPage.enterEmail(propLocator.getProperty("buy_now"), password);
 		
 	}
 }
