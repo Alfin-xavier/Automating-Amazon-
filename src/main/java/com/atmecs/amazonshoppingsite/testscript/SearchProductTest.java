@@ -23,7 +23,7 @@ public class SearchProductTest extends BasePage
 	{
 		searchProd = PropertyReader.readProperty(ConstantFilePath.SEARCH_PRODUCT_LOCATOR);
 		
-		prodName = PropertyReader.readProperty(ConstantFilePath.TESTDATA);
+		prodName = PropertyReader.readProperty(ConstantFilePath.SEARCH_TESTDATA);
 		
 		searchProduct = new SearchProductPage(driver);
 		

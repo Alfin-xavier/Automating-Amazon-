@@ -1,5 +1,7 @@
 package com.atmecs.amazonshoppingsite.page;
 
+import java.util.Iterator;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -58,4 +60,34 @@ public class WomenFashionPage
 		driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
 	}
 	
+	public void clickBuyNow(String xpath)
+	{
+		driver.findElement(By.xpath(xpath)).click();
+		driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
+	}
+	
+	public void switchingWindow()
+	{
+		Set<String> ids = driver.getWindowHandles();
+		Iterator<String> id = ids.iterator();
+		String parent = id.next();
+		driver.close();
+		String child = id.next();
+		driver.switchTo().window(child);
+		String title = driver.getTitle();
+		System.out.println("Current window title:" +title);
+		driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
+	}
+	
+	public void enterEmail(String xpath, String value)
+	{
+		driver.findElement(By.xpath(xpath)).sendKeys(value);
+		driver.manage().timeouts().implicitlyWait(2000, TimeUnit.SECONDS);
+	}
+	
+	public void enterPassword(String xpath, String value)
+	{
+		driver.findElement(By.xpath(xpath)).sendKeys(value);
+		driver.manage().timeouts().implicitlyWait(2000, TimeUnit.SECONDS);
+	}
 }

@@ -23,6 +23,7 @@ public class SearchProductPage
 	{
 		driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
 		driver.findElement(By.xpath(xpath)).sendKeys(value);
+		driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
 	}
 	
 	public void clickSearchIcon(String xpath)

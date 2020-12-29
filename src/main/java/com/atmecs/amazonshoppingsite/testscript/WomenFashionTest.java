@@ -16,10 +16,14 @@ public class WomenFashionTest extends BasePage
 	
 	WomenFashionPage fashionPage;
 	
+	Properties payData;
+	
 	@Test
 	public void womenFashion()
 	{
 		propLocator = PropertyReader.readProperty(ConstantFilePath.WOMEN_FASHION_LOCATOR);
+		
+		payData = PropertyReader.readProperty(ConstantFilePath.PAYMENT_TESTDATA);
 		
 		fashionPage = new WomenFashionPage(driver);
 		
@@ -46,6 +50,18 @@ public class WomenFashionTest extends BasePage
 		Reporter.log("Selecting bag");
 		
 		fashionPage.selectBag(propLocator.getProperty("bag"));
+		
+		Reporter.log("Switching to bag detail page");
+		
+		fashionPage.switchingWindow();
+		
+		Reporter.log("Clicking buy now button");
+		
+		fashionPage.clickBuyNow(propLocator.getProperty("buy_now"));
+		
+		Reporter.log("Providing mail id");
+		
+		fashionPage.enterEmail(propLocator.getProperty("buy_now"), payData.getProperty("email"));
 		
 	}
 }
