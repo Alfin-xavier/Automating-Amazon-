@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="48.951" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="49.721" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="webdriver.chrome.driver" value="./lib/chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\alfin.anthonyraj\AppData\Local\Temp\surefire3580198516737906329\surefirebooter6550052634807428025.jar C:\Users\alfin.anthonyraj\AppData\Local\Temp\surefire3580198516737906329 2020-12-29T16-25-27_811-jvmRun1 surefire16128856002796080405tmp surefire_05808892721836249384tmp"/>
+    <property name="sun.java.command" value="C:\Users\alfin.anthonyraj\AppData\Local\Temp\surefire4937515692951954162\surefirebooter10844178311916324194.jar C:\Users\alfin.anthonyraj\AppData\Local\Temp\surefire4937515692951954162 2020-12-29T16-33-36_127-jvmRun1 surefire12688454911598099051tmp surefire_017101876359601985785tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\alfin.anthonyraj\Automation_Selenium\amazonshoppingsite\target\test-classes;C:\Users\alfin.anthonyraj\Automation_Selenium\amazonshoppingsite\target\classes;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\alfin.anthonyraj\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\alfin.anthonyraj\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\alfin.anthonyraj\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\alfin.anthonyraj\AppData\Local\Temp\surefire3580198516737906329\surefirebooter6550052634807428025.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\alfin.anthonyraj\AppData\Local\Temp\surefire4937515692951954162\surefirebooter10844178311916324194.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="14.0.1+7"/>
@@ -56,27 +56,27 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase name="searchProduct" classname="com.atmecs.amazonshoppingsite.testscript.SearchProductTest" time="14.649">
+  <testcase name="searchProduct" classname="com.atmecs.amazonshoppingsite.testscript.SearchProductTest" time="13.326">
     <system-out><![CDATA[searchProductstarted !!
 Current window title:New Apple iPhone 12 Pro Max (128GB) - Gold: Amazon.in
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 44774
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 13110
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Dec 29, 2020 4:25:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Dec 29, 2020 4:33:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="womenFashion" classname="com.atmecs.amazonshoppingsite.testscript.WomenFashionTest" time="11.508">
+  <testcase name="womenFashion" classname="com.atmecs.amazonshoppingsite.testscript.WomenFashionTest" time="12.996">
     <system-out><![CDATA[searchProductpassed!!
 womenFashionstarted !!
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 32125
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 20990
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Dec 29, 2020 4:25:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Dec 29, 2020 4:34:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

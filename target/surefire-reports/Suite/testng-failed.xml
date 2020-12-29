@@ -7,13 +7,13 @@
   <test thread-count="5" parallel="tests" name="Test(failed)" verbose="0">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.atmecs.amazonshoppingsite.testscript.WomenFashionTest">
+      <class name="com.atmecs.amazonshoppingsite.testscript.SearchProductTest">
         <methods>
-          <include name="womenFashion"/>
+          <include name="searchProduct"/>
           <include name="afterMethod"/>
           <include name="beforeMethod"/>
         </methods>
-      </class> <!-- com.atmecs.amazonshoppingsite.testscript.WomenFashionTest -->
+      </class> <!-- com.atmecs.amazonshoppingsite.testscript.SearchProductTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

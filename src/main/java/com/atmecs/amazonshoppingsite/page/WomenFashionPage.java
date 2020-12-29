@@ -24,7 +24,7 @@ public class WomenFashionPage
 	public void clickWomenFashion(String xpath)
 	{
 		driver.findElement(By.xpath(xpath)).click();
-		driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(15000, TimeUnit.SECONDS);
 	}
 	
 	public void clickSlingBag(String xpath)
@@ -43,7 +43,7 @@ public class WomenFashionPage
 	{
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,1500)");
-		driver.manage().timeouts().implicitlyWait(5000, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
 	}
 	
 }
